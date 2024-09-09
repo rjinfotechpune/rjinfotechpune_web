@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RJ Infotech - Your One-Stop Tech Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header and Navigation */
+        header {
+            background-color: #1f1f1f;
+            color: white;
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            margin-left: 20px;
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        /* Icons for cart, account, and search */
+        .icons {
+            margin-right: 20px;
+        }
+
+        .icons a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1.5em;
+            vertical-align: middle;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url('https://www.originpc.com/images/custom-pcs-banner.jpg') no-repeat center center/cover;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 4em;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+
+        .hero .cta-btn {
+            background-color: #ff6f00;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+        }
+
+        /* Categories section */
+        .categories {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px;
+        }
+
+        .category {
+            width: 30%;
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .category img {
+            width: 100%;
+            height: auto;
+        }
+
+        .category h3 {
+            color: #333;
+            margin: 20px 0;
+        }
+
+        .category p {
+            color: #666;
+        }
+
+        /* Featured Products */
+        .products {
+            background-color: #f9f9f9;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .products h2 {
+            color: #333;
+            font-size: 2.5em;
+        }
+
+        .product-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .product {
+            width: 30%;
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .product img {
+            width: 100%;
+        }
+
+        .product h3 {
+            color: #333;
+        }
+
+        .product p {
+            color: #777;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1f1f1f;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Social Icons */
+        .social-icons {
+            margin-top: 15px;
+        }
+
+        .social-icons a {
+            color: white;
+            font-size: 1.5em;
+            margin: 0 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">RJ Infotech</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="icons">
+            <a href="/cart"><i class="fas fa-shopping-cart"></i></a>
+            <a href="/search"><i class="fas fa-search"></i></a>
+            <a href="/account"><i class="fas fa-user"></i></a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div>
+            <h1>High-End Custom PCs</h1>
+            <p>Build Your Dream Gaming PC with RJ Infotech</p>
+            <a href="/custom-pcs" class="cta-btn">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <div class="category">
+            <img src="https://via.placeholder.com/350x200" alt="Custom Gaming PCs">
+            <h3>Custom Gaming PCs</h3>
+            <p>We design and build high-performance gaming PCs.</p>
+        </div>
+        <div class="category">
+            <img src="https://via.placeholder.com/350x200" alt="Laptops">
+            <h3>Laptops</h3>
+            <p>Explore our range of laptops for all needs, new and refurbished.</p>
+        </div>
+        <div class="category">
+            <img src="https://via.placeholder.com/350x200" alt="Accessories">
+            <h3>Accessories</h3>
+            <p>Find essential tech accessories like cables, keyboards, and more.</p>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="products">
+        <h2>Featured Products</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="https://via.placeholder.com/300x200" alt="Product 1">
+                <h3>Gaming PC Model A</h3>
+                <p>High-performance gaming at its finest.</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300x200" alt="Product 2">
+                <h3>Laptop Pro 2024</h3>
+                <p>For professionals who need power on the go.</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300x200" alt="Product 3">
+                <h3>Ultra Gaming Mouse</h3>
+                <p>Precision and speed for your gaming setup.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 RJ Infotech. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <!-- FontAwesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</body>
+</html>
